@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+        <link rel="stylesheet" href="style.css">
+        <title>Product Landing Page</title>
+    </head>
+    <body>
+        <header id="header">
+            <img src="images/MacBook-Logo_2x.png" alt="mac-book-logo" id="header-img">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <div id="section-one">
+                <h1>Welcome to the Future of Mac</h1>
+                <form id="form" action="#">
+                    <input id="email" type="email" name="email" placeholder="Enter your Email">
+                    <input id="submit" type="submit" value="Get Started">
+                </form>
+            </div>
+
+            <div id="features">
+                <section class="feature-group">
+                    <div class="feature-icon">
+                        <i class="fas fa-box icon"></i>
+                    </div>
+                    <div class="details">
+                        <h3>Fast, free, no-contact delivery</h3>
+                        <p>And free returns. See checkout for delivery dates.</p>
+                        <a href="https://www.apple.com/us/shop/goto/shipping_and_returns">Learn more <i class="fas fa-greater-than"></i></a>
+                    </div>
+                </section>
+                <section class="feature-group">
+                    <div class="feature-icon">
+                        <i class="fas fa-dollar-sign icon"></i>
+                    </div>
+                    <div class="details">
+                        <h3>Get 3% Daily Cash back with Apple Card</h3>
+                        <p>And pay over time, interest‑free when you choose Apple Card Monthly Installments.</p>
+                        <a href="https://www.apple.com/apple-card/monthly-installments/">Learn more <i class="fas fa-greater-than"></i></a>
+                    </div>
+                </section>
+                <section class="feature-group">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments icon"></i>
+                    </div>
+                    <div class="details">
+                        <h3>Get help buying</h3>
+                        <p>Have a question? Call a Specialist or chat online. Call 1‑800-MY‑APPLE.</p>
+                        <a href="https://contactretail.apple.com/?pg=COM:imac&ap=COM&c=us&l=en">Learn more <i class="fas fa-greater-than"></i></a>
+                    </div>
+                </section>
+            </div>
+
+            <div id="how-it-works">
+                <iframe id="video" height="315" src="https://www.youtube.com/embed/hs1HoLs4SD0" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div id="pricing">
+                <section class="pricing-group">
+                    <img src="images/Mac-air.png" alt="mac-book-air">
+                    <div class="info">
+                        <h3>MacBook Air</h3>
+                        <p>From $999 or $83.25/mo. for 12 mo.**</p>
+                    </div>
+                </section>
+                <section class="pricing-group">
+                    <img src="images/Mac-pro.png" alt="mac-book-pro-13">
+                    <div class="info">
+                        <h3>MacBook Pro 13”</h3>
+                        <p>From $1299 or $108.25/mo. for 12 mo.**</p>
+                    </div>
+                </section>
+                <section class="pricing-group">
+                    <img src="images/Mac-pro-16.png" alt="mac-book-pro-16">
+                    <div class="info">
+                        <h3>MacBook Pro 16”</h3>
+                        <p>From $2399 or $199.91/mo. for 12 mo.**</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div>
+                <span>Privacy</span>
+                <span>Terms</span>
+                <span>Contact</span>
+            </div>
+            <p>Copyright &copy; 2021 Apple Inc. All rights reserved</p>
+        </footer>
+    </body>
+</html>
